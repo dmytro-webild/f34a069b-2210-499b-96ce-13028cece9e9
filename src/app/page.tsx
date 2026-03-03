@@ -20,7 +20,7 @@ export default function LandingPage() {
       borderRadius="pill"
       contentWidth="mediumLarge"
       sizing="mediumLargeSizeLargeTitles"
-      background="aurora"
+      background="circleGradient"
       cardStyle="outline"
       primaryButtonStyle="gradient"
       secondaryButtonStyle="solid"
@@ -43,7 +43,7 @@ export default function LandingPage() {
         <HeroBillboardTestimonial
           title="Predictable Client Acquisition Powered by AI"
           description="We build automated lead generation systems that attract, qualify, and book high-intent clients directly into your calendar."
-          background={{ variant: "aurora" }}
+          background={{ variant: "glowing-orb" }}
           useInvertedBackground={false}
           tag="AI-Powered Automation"
           tagAnimation="slide-up"
@@ -135,16 +135,16 @@ export default function LandingPage() {
           gridVariant="four-items-2x2-equal-grid"
           products={[
             {
-              id: "step-1",              name: "Strategy & Offer Optimization",              price: "Step 1",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-clean-modern-flowchart-showing-the-wyz-1772516711643-389fe51d.png?_wi=1",              imageAlt: "Strategy refinement"
+              id: "step-1",              name: "Strategy & Offer Optimization",              price: "Step 1",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-clean-modern-flowchart-showing-the-wyz-1772516711643-389fe51d.png",              imageAlt: "Strategy refinement"
             },
             {
-              id: "step-2",              name: "Targeted Traffic",              price: "Step 2",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-clean-modern-flowchart-showing-the-wyz-1772516711643-389fe51d.png?_wi=2",              imageAlt: "Paid campaign launch"
+              id: "step-2",              name: "Targeted Traffic",              price: "Step 2",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-clean-modern-flowchart-showing-the-wyz-1772516711643-389fe51d.png",              imageAlt: "Paid campaign launch"
             },
             {
-              id: "step-3",              name: "AI Qualification",              price: "Step 3",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-clean-modern-flowchart-showing-the-wyz-1772516711643-389fe51d.png?_wi=3",              imageAlt: "Automated lead filtering"
+              id: "step-3",              name: "AI Qualification",              price: "Step 3",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-clean-modern-flowchart-showing-the-wyz-1772516711643-389fe51d.png",              imageAlt: "Automated lead filtering"
             },
             {
-              id: "step-4",              name: "Calendar Integration",              price: "Step 4",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-clean-modern-flowchart-showing-the-wyz-1772516711643-389fe51d.png?_wi=4",              imageAlt: "Automated booking"
+              id: "step-4",              name: "Calendar Integration",              price: "Step 4",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-clean-modern-flowchart-showing-the-wyz-1772516711643-389fe51d.png",              imageAlt: "Automated booking"
             }
           ]}
         />
@@ -159,16 +159,16 @@ export default function LandingPage() {
           animationType="slide-up"
           metrics={[
             {
-              id: "ai-driven",              value: "100%",              title: "AI-Driven Automation",              description: "Eliminate manual lead handling with intelligent systems",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-visual-representation-of-business-grow-1772516711260-dc5f938d.png?_wi=1",              imageAlt: "AI automation workflow"
+              id: "ai-driven",              value: "100%",              title: "AI-Driven Automation",              description: "Eliminate manual lead handling with intelligent systems",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-visual-representation-of-business-grow-1772516711260-dc5f938d.png",              imageAlt: "AI automation workflow"
             },
             {
-              id: "data-backed",              value: "24/7",              title: "Data-Backed Strategy",              description: "Real-time optimization based on proven metrics",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-visual-representation-of-business-grow-1772516711260-dc5f938d.png?_wi=2",              imageAlt: "Analytics dashboard"
+              id: "data-backed",              value: "24/7",              title: "Data-Backed Strategy",              description: "Real-time optimization based on proven metrics",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-visual-representation-of-business-grow-1772516711260-dc5f938d.png",              imageAlt: "Analytics dashboard"
             },
             {
-              id: "qualified-leads",              value: "3x+",              title: "Qualified Leads Focus",              description: "Not vanity metrics—only genuine, high-intent prospects",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-visual-representation-of-business-grow-1772516711260-dc5f938d.png?_wi=3",              imageAlt: "Lead quality metrics"
+              id: "qualified-leads",              value: "3x+",              title: "Qualified Leads Focus",              description: "Not vanity metrics—only genuine, high-intent prospects",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-visual-representation-of-business-grow-1772516711260-dc5f938d.png",              imageAlt: "Lead quality metrics"
             },
             {
-              id: "scalable",              value: "∞",              title: "Scalable Infrastructure",              description: "Grow predictably without hitting operational limits",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-visual-representation-of-business-grow-1772516711260-dc5f938d.png?_wi=4",              imageAlt: "Scalable systems"
+              id: "scalable",              value: "∞",              title: "Scalable Infrastructure",              description: "Grow predictably without hitting operational limits",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/a-visual-representation-of-business-grow-1772516711260-dc5f938d.png",              imageAlt: "Scalable systems"
             }
           ]}
         />
@@ -201,7 +201,7 @@ export default function LandingPage() {
           title="Build a Predictable Growth System"
           description="Schedule a free 30-minute strategy session. We'll analyze your business, identify lead generation gaps, and show you exactly how Wyzn Media's AI system can implement predictable client acquisition for you."
           tagAnimation="slide-up"
-          background={{ variant: "aurora" }}
+          background={{ variant: "glowing-orb" }}
           useInvertedBackground={false}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/an-illustration-depicting-business-chall-1772516711517-90db4dec.png"
           imageAlt="Growth system visualization"
