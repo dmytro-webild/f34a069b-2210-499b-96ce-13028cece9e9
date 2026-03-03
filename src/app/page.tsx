@@ -43,7 +43,7 @@ export default function LandingPage() {
         <HeroBillboardTestimonial
           title="Predictable Client Acquisition Powered by AI"
           description="We build automated lead generation systems that attract, qualify, and book high-intent clients directly into your calendar."
-          background={{ variant: "aurora" }}
+          background={{ variant: "glowing-orb" }}
           useInvertedBackground={false}
           tag="AI-Powered Automation"
           tagAnimation="slide-up"
@@ -201,7 +201,7 @@ export default function LandingPage() {
           title="Build a Predictable Growth System"
           description="Schedule a free 30-minute strategy session. We'll analyze your business, identify lead generation gaps, and show you exactly how Wyzn Media's AI system can implement predictable client acquisition for you."
           tagAnimation="slide-up"
-          background={{ variant: "aurora" }}
+          background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQEKReAIV3UyO8Ouxkrw1K5Rfl/an-illustration-depicting-business-chall-1772516711517-90db4dec.png"
           imageAlt="Growth system visualization"
